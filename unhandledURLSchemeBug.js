@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Linking` API to open a URL and the URL scheme is not handled by any application on the device.  For example, if you try to open a URL with a custom scheme that isn't registered, you'll get a silent failure. This can be tricky to debug because there's no immediate error message.
